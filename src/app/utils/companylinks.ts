@@ -1,7 +1,8 @@
+
 export const Company_LINKS = [
     {
       name: "About",
-      href: "/About",
+      href: "/About"
     },
     {
       name: "Terms of Use",
