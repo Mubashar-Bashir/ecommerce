@@ -1,5 +1,5 @@
 import React from 'react';
-
+import Image from 'next/image';
 const ProductDescription = () => {
   return (
     <div className='product-description justify-between mt-10 px-10 bg-gray-100 '>
@@ -49,7 +49,7 @@ const ProductDescription = () => {
 
         <div className='3rd-col-1st-row bg-blue-400 h-full w-full'>
           <div>
-            <img src="/images/p9.webp" alt="Product"
+            <Image src="/images/p9.webp" alt="Product"
             height={400}
             width={400} />
           </div>
